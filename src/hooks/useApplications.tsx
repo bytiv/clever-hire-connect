@@ -113,10 +113,10 @@ export const useApplications = () => {
     if (updateError) throw updateError;
 
     // 5. Notify user & refresh cache
-    toast({
-      title: `ATS Score: ${result.ats_score.toFixed(1)}%`,
-      description: `Category: ${result.predicted_category}`,
-    });
+    // toast({
+    //   title: `ATS Score: ${result.ats_score.toFixed(1)}%`,
+    //   description: `Category: ${result.predicted_category}`,
+    // });
     queryClient.invalidateQueries({ queryKey: ['applications'] });
 
     return result;
