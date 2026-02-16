@@ -188,7 +188,7 @@ export const useApplications = () => {
       queryClient.invalidateQueries({ queryKey: ['applications'] });
       toast({
         title: 'Application submitted! 🎉',
-        description: 'Your ATS score is being calculated…',
+        description: 'Good luck with your application!',
       });
     },
 

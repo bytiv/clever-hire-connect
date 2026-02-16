@@ -410,7 +410,7 @@ const ApplicationsViewer = () => {
                   {app.cover_letter && (
                     <div>
                       <h4 className="font-semibold mb-2">Cover Letter</h4>
-                      <div className="bg-gray-50 p-4 rounded-lg">
+                      <div className="bg-muted p-4 rounded-lg">
                         <p className="text-sm leading-relaxed whitespace-pre-wrap">
                           {app.cover_letter}
                         </p>
